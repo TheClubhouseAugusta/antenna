@@ -67,7 +67,7 @@ def counter_clockwise(steps):
 
   GPIO.cleanup
 
-  class Motor(object):
+class Motor(object):
 	def __init__(self, pins):
 		self.P1 = pins[0]
 		self.P2 = pins[1]
