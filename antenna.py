@@ -22,10 +22,10 @@ def elevation(angle):
 	set("servo", str(angle))
 
 
-set("delayed", "0")
-set("mode", "servo")
-set("servo_max", "180")
-set("active", "1")
+#set("delayed", "0")
+#set("mode", "servo")
+#set("servo_max", "180")
+#set("active", "1")
 
 def clockwise(steps):
 
